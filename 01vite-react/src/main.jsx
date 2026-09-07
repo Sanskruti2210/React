@@ -1,6 +1,7 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import Chai from './Chai.jsx'
 
 function MyApp(){
     return (
@@ -33,5 +34,6 @@ const anotherElemenet = (
 )
 
 createRoot(document.getElementById('root')).render(
-ReactElement
+<Chai />
 )
+

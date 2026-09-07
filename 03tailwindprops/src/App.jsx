@@ -28,7 +28,7 @@ function App() {
           <span>2025</span>
         </span>
       </div> */}
-
+      {/* </div> */}
       <Card username="Chai aur code" btnText="Buy now"/>
       <Card username="Sanskruti" btnText ="Visit me"/>
       <Card username = "Chai aur React" btnText="Visit and Buy"/>

@@ -45,7 +45,7 @@ function App() {
               className="outline-none w-full py-1 px-3 text-gray-800"
               placeholder="Password"
               readOnly
-			  ref = {passwordRef}>
+			        ref = {passwordRef}>
 
 			</input>
           <button 

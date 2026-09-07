@@ -10,7 +10,8 @@ function Card({username,btnText = "Visit me"}){
       </figure>
       <div className="card-body">
         <h2 className="card-title">{username}</h2>
-        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <p>A card component has a figure, a body part, 
+          and inside body there are title and actions parts</p>
         <div className="card-actions justify-end">
           <button className="bg-blue-500 text-white px-4 py-2 rounded">{btnText}</button>
         </div>
